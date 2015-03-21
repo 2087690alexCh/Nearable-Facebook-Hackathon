@@ -32,5 +32,6 @@
 	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/slf4j-simple-1.7.7.jar"/>
 	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/spark-core-2.0.0.jar"/>
 	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/json-20141113.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
