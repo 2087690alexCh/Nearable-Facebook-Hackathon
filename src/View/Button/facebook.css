@@ -1,10 +1,11 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
-
 .button{
-    -fx-color: #627aac;
-    -fx-padding: 7px;
-    -fx-font-weight: bold;
-    -fx-font-size: 11px;
-    -fx-font-family: lucida grande;
-    -fx-cursor: pointer;
-}
+ 	-fx-background-color:
+ 	        #a6b5c9,
+        linear-gradient(#303842 0%, #3e5577 20%, #375074 100%),
+        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%);
+    -fx-text-fill: #242d35;
+    -fx-font-family: Helvetica;
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    }

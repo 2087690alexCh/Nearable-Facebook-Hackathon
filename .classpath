@@ -2,36 +2,37 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-alpn-client-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-alpn-server-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-annotations-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-cdi-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-client-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-continuation-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-deploy-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-http-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-io-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-jaas-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-jaspi-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-jmx-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-jndi-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-plus-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-proxy-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-quickstart-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-rewrite-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-schemas-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-security-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-server-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-servlet-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-servlets-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-util-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-webapp-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/jetty-xml-9.2.5.v20141112.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/servlet-api-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/slf4j-api-1.7.7.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/slf4j-simple-1.7.7.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/JarFiles/spark-core-2.0.0.jar"/>
-	<classpathentry kind="lib" path="D:/Nearable-Facebook-Hackathon/json-20141113.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-alpn-client-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-alpn-server-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-annotations-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-cdi-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-client-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-continuation-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-deploy-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-http-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-io-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-jaas-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-jaspi-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-jmx-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-jndi-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-plus-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-proxy-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-quickstart-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-rewrite-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-schemas-3.1.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-security-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-server-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-servlet-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-servlets-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-util-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-webapp-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/jetty-xml-9.2.5.v20141112.jar"/>
+	<classpathentry kind="lib" path="JarFiles/servlet-api-3.1.jar"/>
+	<classpathentry kind="lib" path="JarFiles/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="JarFiles/slf4j-simple-1.7.7.jar"/>
+	<classpathentry kind="lib" path="JarFiles/spark-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="json-20141113.jar"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javaFX"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
