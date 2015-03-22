@@ -1,14 +1,1 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
-button{
-  -fx-padding: 1px;
-  -fx-color: cyan;
-  -fx-border-color: #ccc;
-  -fx-border-style: solid;
-  -fx-border-radius: 1px;
-  -fx-border-radius: 3px;
-  -fx-background-color: cyan;
-  -fx-font-weight: bold;
-  -fx-font-size: 17px;
-  -fx-font-family: Helvetica;
-  -fx-color: #333;
-  }

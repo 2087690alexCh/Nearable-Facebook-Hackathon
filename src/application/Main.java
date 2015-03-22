@@ -16,6 +16,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import View.Button.FacebookButton;
 import View.Button.InstagramButton;
@@ -27,10 +28,12 @@ public class Main extends Application {
 	private BorderPane root;
 	private Scene scene;
 	private VBox mainPane;
+//	Font bb;
 	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			//billabong font for the instagram button
 			root = new BorderPane();
 			scene = new Scene(root,400,400);
 			mainPane = new VBox();
@@ -68,8 +71,13 @@ public class Main extends Application {
 		buttons.setSpacing(15);
 		//the bird is the word (twitter)
 		Image im = new Image(getClass().getResource("..\\View\\Button\\Images\\bird.png").toExternalForm());
-		ImageView iv = new ImageView();
-		iv.setImage(im);
+		ImageView iv = new ImageView(im);
+		//fb log
+		Image fbIM = new Image(getClass().getResource("..\\View\\Button\\Images\\fb.png").toExternalForm());
+		ImageView fbIV = new ImageView(fbIM);
+		//instagram logos
+		Image igIM = new Image(getClass().getResource("..\\View\\Button\\Images\\ig.png").toExternalForm());
+		ImageView igIV = new ImageView(igIM);
 		//exit button
 		Button exitButton = new Button("Exit");
 		exitButton.setOnAction(new EventHandler<ActionEvent>(){
@@ -78,11 +86,13 @@ public class Main extends Application {
 			}		
 		});
 		//random button for experiments
-		FacebookButton goButton = new FacebookButton("GO!");
-		FacebookButton facebookButton = new FacebookButton("Facebook");
-		TwitterButton twitterButton = new TwitterButton("Twitter feed", iv);
-		InstagramButton instagramButton = new InstagramButton("Instagram");
-		goButton.setOnAction(new EventHandler<ActionEvent>() {
+		FacebookButton facebookButton = new FacebookButton("Facebook",fbIV);
+		TwitterButton twitterButton = new TwitterButton("Twitter", iv);
+		InstagramButton instagramButton = new InstagramButton("Instagram", igIV);
+
+		Font bb = Font.loadFont(getClass().getResourceAsStream("..\\View\\Button\\Fonts\\billabong.ttf"), 12);
+		instagramButton.setFont(bb);
+		facebookButton.setOnAction(new EventHandler<ActionEvent>() {
 			VBox root = new VBox(2);
 		    @Override public void handle(ActionEvent e) {
 		        Stage stage = new Stage();
@@ -107,7 +117,7 @@ public class Main extends Application {
 		    }
 		});
 		buttons.setAlignment(Pos.CENTER);
-		buttons.getChildren().addAll(exitButton, goButton, facebookButton, twitterButton, instagramButton);
+		buttons.getChildren().addAll(exitButton, facebookButton, twitterButton, instagramButton);
 		south.getChildren().addAll(buttons);
 		mainPane.getChildren().add(south);
 	}
