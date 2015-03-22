@@ -7,7 +7,23 @@ import spark.Spark;
 import org.json.*;
 
 public class Main {
-
+	
+	//Instagram API Data
+	public static String srcI;
+	public static Double latitudeI;
+	public static Double longitudeI;
+	public static String urlI;
+	public static String idI;
+	
+	//Twitter API Data
+	
+	
+	public static Double latitudeT;
+	public static Double longitudeT;
+	public static String urlT;
+	public static String textT;
+	public static String idT;
+	
 	public static void main(String[] args) {
 		Spark.get("/hello", new Route() {
     		@Override
@@ -22,20 +38,14 @@ public class Main {
     			String data = request.body();
     			
     			JSONObject obj = new JSONObject(data);
-    			String src = obj.getString("src");
-    			Double latitude = obj.getDouble("lat");
-    			Double longitude = obj.getDouble("lng");
-    			String urlInstagram = obj.getString("urli");
-    			String id = obj.getString("id");
+    			srcI = obj.getString("src");
+    			latitudeI = obj.getDouble("lat");
+    			longitudeI= obj.getDouble("lng");
+    			urlI = obj.getString("urli");
+    			idI = obj.getString("id");
     							  
     			
-    			System.out.println(src);
-    			System.out.println(latitude);
-    			System.out.println(longitude);
-    			System.out.println(urlInstagram);
-    			System.out.println(id);
-    			
-    		return  "hi";
+    		return  "OK";
     		}
     		});
 		
@@ -45,39 +55,16 @@ public class Main {
     			String data = request.body();
     			
     			JSONObject obj = new JSONObject(data);
-    			String text = obj.getString("text");
-    			Double latitude = obj.getDouble("lat");
-    			Double longitude = obj.getDouble("lng");
-    			String urlInstagram= obj.getString("urlt");
-    			String id = obj.getString("id");
-    							  
+    			textT = obj.getString("text");
+    			latitudeT = obj.getDouble("lat");
+    			longitudeT = obj.getDouble("lng");
+    			urlT = obj.getString("urlt");
+    			idT = obj.getString("id");
+    				
     			
-    			System.out.println(text);
-    			System.out.println(latitude);
-    			System.out.println(longitude);
-    			System.out.println(urlInstagram);
-    			System.out.println(id);
-    			
-    		return  "hi";
+    		return  "OK";
     		}
     		});
-		
-//		Spark.post("/testPost", new Route() {
-//            @Override
-//            public Object handle(Request request, Response response) {
-//            	//get data
-//                String data = request.queryParams("article-title");
-//                System.out.println(data);
-// 
-//                Article article = new Article(title, summary, content, HelloSpark.articles.size() + 1);
-// 
-//                HelloSpark.articles.addFirst(article);
-// 
-//                response.status(201);
-//                response.redirect("/");
-//                return "";
-//            }
-//        });
 
 	}
 
